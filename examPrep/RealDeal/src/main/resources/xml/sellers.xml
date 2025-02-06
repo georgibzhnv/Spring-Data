@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sellers>
+    <seller>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <email>johndoe@abv.bg</email>
+        <rating>UNKNOWN</rating>
+        <town>New York</town>
+    </seller>
+    <seller>
+        <email>janesmith@abv.bg</email>
+        <first-name>Jane</first-name>
+        <last-name>Smith</last-name>
+        <rating>GOOD</rating>
+        <town>Los Angeles</town>
+    </seller>
+    <seller>
+        <email>michaeljohnson@abv.bg</email>
+        <first-name>Michael</first-name>
+        <last-name>Johnson</last-name>
+        <rating>BAD</rating>
+        <town>Chicago</town>
+    </seller>
+    <seller>
+        <email>emilydavis@abv.bg</email>
+        <first-name>Emily</first-name>
+        <last-name>Davis</last-name>
+        <rating>VERY GOOD</rating>
+        <town>Houston</town>
+    </seller>
+    <seller>
+        <email>williambrown@abv.bg</email>
+        <first-name>William</first-name>
+        <last-name>Brown</last-name>
+        <rating>BAD</rating>
+        <town>San Francisco</town>
+    </seller>
+</sellers>

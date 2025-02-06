@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offers>
+    <offer>
+        <added-on>2025-02-01T10:00:00</added-on>
+        <description>Great car in excellent condition.</description>
+        <has-gold-status>true</has-gold-status>
+        <price>25000.00</price>
+        <car>
+            <id>5</id>
+        </car>
+        <seller>
+            <id>2</id>
+        </seller>
+    </offer>
+    <offer>
+        <added-on>2025-02-02T12:30:00</added-on>
+        <description>Luxury sedan with premium features.</description>
+        <has-gold-status>false</has-gold-status>
+        <price>45000.00</price>
+        <car>
+           <id>3</id>
+        </car>
+        <seller>
+            <id>1</id>
+        </seller>
+    </offer>
+    <offer>
+        <added-on>2025-02-03T08:45:00</added-on>
+        <description>Affordable compact car, perfect for city driving.</description>
+        <has-gold-status>true</has-gold-status>
+        <price>15000.00</price>
+        <car>
+            <id>7</id>
+        </car>
+        <seller>
+            <id>4</id>
+        </seller>
+    </offer>
+    <offer>
+        <added-on>2025-02-04T15:00:00</added-on>
+        <description>Sports car with high performance.</description>
+        <has-gold-status>true</has-gold-status>
+        <price>60000.00</price>
+        <car>
+            <id>1</id>
+        </car>
+        <seller>
+            <id>3</id>
+        </seller>
+    </offer>
+</offers>

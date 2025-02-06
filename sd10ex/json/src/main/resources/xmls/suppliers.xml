@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<suppliers>
+    <supplier name="GeorgiB" is-importer="true"/>
+    <supplier name="Max" is-importer="true"/>
+    <supplier name="Tech" is-importer="false"/>
+    <supplier name="Auto" is-importer="true"/>
+    <supplier name="Nelas" is-importer="false"/>
+    <supplier name="Hemus" is-importer="true"/>
+    <supplier name="IvanTech" is-importer="false"/>
+</suppliers>

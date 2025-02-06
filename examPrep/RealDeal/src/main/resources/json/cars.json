@@ -1,0 +1,62 @@
+[
+  {
+    "kilometers": 15000,
+    "make": "Toyota",
+    "model": "Corolla",
+    "registeredOn": "2022/06/15"
+  },
+  {
+    "kilometers": 50000,
+    "make": "Honda",
+    "model": "Civic",
+    "registeredOn": "2021/03/10"
+  },
+  {
+    "kilometers": 120000,
+    "make": "Ford",
+    "model": "Focus",
+    "registeredOn": "2018/09/20"
+  },
+  {
+    "kilometers": 8000,
+    "make": "BMW",
+    "model": "320i",
+    "registeredOn": "2023/01/05"
+  },
+  {
+    "kilometers": 30000,
+    "make": "Mercedes",
+    "model": "C/Class",
+    "registeredOn": "2020/11/12"
+  },
+  {
+    "kilometers": 70000,
+    "make": "Audi",
+    "model": "A4",
+    "registeredOn": "2019/07/25"
+  },
+  {
+    "kilometers": 22000,
+    "make": "Nissan",
+    "model": "Altima",
+    "registeredOn": "2022/02/28"
+  },
+  {
+    "kilometers": 90000,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "registeredOn": "2017/05/19"
+  },
+  {
+    "kilometers": 40000,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "registeredOn": "2021/08/30"
+  },
+  {
+    "kilometers": 18000,
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "registeredOn": "2022/09/10"
+  }
+]

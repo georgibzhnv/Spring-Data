@@ -1,0 +1,52 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "travelled_distance": 150000
+    },
+    {
+        "make": "Ford",
+        "model": "Focus",
+        "travelled_distance": 120000
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "travelled_distance": 80000
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "travelled_distance": 90000
+    },
+    {
+        "make": "Audi",
+        "model": "A4",
+        "travelled_distance": 110000
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "travelled_distance": 130000
+    },
+    {
+        "make": "Nissan",
+        "model": "Altima",
+        "travelled_distance": 140000
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "travelled_distance": 125000
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "travelled_distance": 100000
+    },
+    {
+        "make": "Kia",
+        "model": "Optima",
+        "travelled_distance": 95000
+    }
+]

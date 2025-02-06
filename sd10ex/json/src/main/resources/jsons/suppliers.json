@@ -1,0 +1,42 @@
+[
+    {
+        "name": "AutoParts Ltd",
+        "is_importer": true
+    },
+    {
+        "name": "CarParts International",
+        "is_importer": false
+    },
+    {
+        "name": "Global Auto",
+        "is_importer": true
+    },
+    {
+        "name": "Superior Parts",
+        "is_importer": false
+    },
+    {
+        "name": "OEM Auto Supply",
+        "is_importer": true
+    },
+    {
+        "name": "Highway Autoparts",
+        "is_importer": false
+    },
+    {
+        "name": "FastTrack Parts",
+        "is_importer": true
+    },
+    {
+        "name": "Reliable Car Parts",
+        "is_importer": false
+    },
+    {
+        "name": "TopGear Supplies",
+        "is_importer": true
+    },
+    {
+        "name": "Economy Auto",
+        "is_importer": false
+    }
+]

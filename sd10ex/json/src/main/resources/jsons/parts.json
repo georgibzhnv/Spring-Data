@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Brake Pad",
+        "price": 50.0,
+        "quantity": 200
+    },
+    {
+        "name": "Oil Filter",
+        "price": 20.0,
+        "quantity": 500
+    },
+    {
+        "name": "Headlight",
+        "price": 150.0,
+        "quantity": 100
+    },
+    {
+        "name": "Tire",
+        "price": 75.0,
+        "quantity": 300
+    },
+    {
+        "name": "Battery",
+        "price": 120.0,
+        "quantity": 50
+    },
+    {
+        "name": "Spark Plug",
+        "price": 10.0,
+        "quantity": 1000
+    },
+    {
+        "name": "Radiator",
+        "price": 200.0,
+        "quantity": 75
+    },
+    {
+        "name": "Windshield Wiper",
+        "price": 25.0,
+        "quantity": 400
+    },
+    {
+        "name": "Air Filter",
+        "price": 30.0,
+        "quantity": 600
+    },
+    {
+        "name": "Fuel Pump",
+        "price": 180.0,
+        "quantity": 90
+    }
+]

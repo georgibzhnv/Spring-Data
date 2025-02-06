@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cars>
+    <car><make>Toyota</make><model>Corolla</model><travelled-distance>150000</travelled-distance></car>
+    <car><make>Ford</make><model>Focus</model><travelled-distance>120000</travelled-distance></car>
+    <car><make>BMW</make><model>X5</model><travelled-distance>80000</travelled-distance></car>
+    <car><make>Mercedes</make><model>C-Class</model><travelled-distance>90000</travelled-distance></car>
+    <car><make>Audi</make><model>A4</model><travelled-distance>110000</travelled-distance></car>
+    <car><make>Honda</make><model>Civic</model><travelled-distance>130000</travelled-distance></car>
+    <car><make>Nissan</make><model>Altima</model><travelled-distance>140000</travelled-distance></car>
+    <car><make>Chevrolet</make><model>Malibu</model><travelled-distance>125000</travelled-distance></car>
+    <car><make>Hyundai</make><model>Elantra</model><travelled-distance>100000</travelled-distance>
+    </car><car><make>Kia</make><model>Optima</model><travelled-distance>95000</travelled-distance></car>
+</cars>

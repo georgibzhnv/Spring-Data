@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sales>
+    <sale>
+        <customer-name>Harvey Elliot</customer-name>
+        <car make="Nissan" model="Altima" travelled-distance="140000"/>
+        <discount>0.05</discount>
+        <price>4004.6800000000003</price>
+        <price-with-discount>3804.4460000000004</price-with-discount>
+    </sale>
+    <sale>
+        <customer-name>John Doe</customer-name>
+        <car make="Ford" model="Focus" travelled-distance="120000"/>
+        <discount>0.05</discount>
+        <price>1001.34</price>
+        <price-with-discount>951.273</price-with-discount>
+    </sale>
+    <sale>
+        <customer-name>John Doe</customer-name>
+        <car make="Mercedes" model="C-Class" travelled-distance="90000"/>
+        <discount>0.1</discount>
+        <price>4603.02</price>
+        <price-with-discount>4142.718000000001</price-with-discount>
+    </sale>
+    <sale>
+        <customer-name>Alexis MacAllister</customer-name>
+        <car make="Honda" model="Civic" travelled-distance="130000"/>
+        <discount>0.3</discount>
+        <price>5505.02</price>
+        <price-with-discount>3853.514</price-with-discount>
+    </sale>
+</sales>

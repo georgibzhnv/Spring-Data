@@ -1,0 +1,52 @@
+[
+  {
+    "dateAndTime": "2024-01-01 10:15:30",
+    "name": "toyota_corolla_front.jpg",
+    "car": 1
+  },
+  {
+    "dateAndTime": "2024-01-02 14:20:45",
+    "name": "honda_civic_side.jpg",
+    "car": 2
+  },
+  {
+    "dateAndTime": "2024-01-03 09:10:30",
+    "name": "ford_focus_rear.jpg",
+    "car": 3
+  },
+  {
+    "dateAndTime": "2024-01-04 12:45:00",
+    "name": "bmw_320i_front.jpg",
+    "car": 4
+  },
+  {
+    "dateAndTime": "2024-01-05 16:30:20",
+    "name": "mercedes_cclass_side.jpg",
+    "car": 5
+  },
+  {
+    "dateAndTime": "2024-01-06 11:25:55",
+    "name": "audi_a4_dashboard.jpg",
+    "car": 6
+  },
+  {
+    "dateAndTime": "2024-01-07 13:40:00",
+    "name": "nissan_altima_front.jpg",
+    "car": 7
+  },
+  {
+    "dateAndTime": "2024-01-08 15:55:10",
+    "name": "hyundai_elantra_side.jpg",
+    "car": 8
+  },
+  {
+    "dateAndTime": "2024-01-09 08:30:00",
+    "name": "chevrolet_malibu_rear.jpg",
+    "car": 9
+  },
+  {
+    "dateAndTime": "2024-01-10 17:10:45",
+    "name": "volkswagen_jetta_dashboard.jpg",
+    "car": 10
+  }
+]

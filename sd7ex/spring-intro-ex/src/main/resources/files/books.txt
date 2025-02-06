@@ -1,0 +1,15 @@
+2 20/01/1998 27274 15.31 2 Absalom
+0 15/07/1995 10123 18.45 0 The Great Gatsby
+1 08/12/2001 54234 25.00 1 War and Peace
+2 22/05/1990 3456 5.99 2 Crime and Punishment
+0 10/11/2003 27644 19.80 0 To Kill a Mockingbird
+1 04/02/1999 17234 12.75 1 Pride and Prejudice
+2 13/06/1997 9183 14.49 2 1984
+0 30/09/1996 23457 20.00 0 The Odyssey
+1 01/01/2005 3412 8.95 1 The Catcher in the Rye
+2 12/03/1994 18234 13.25 2 The Hobbit
+0 18/06/1992 42345 22.30 0 Les Misérables
+1 25/12/1985 19283 16.50 1 Anna Karenina
+2 17/08/2000 28432 18.20 2 Moby-Dick
+0 06/04/2003 10987 9.99 0 Brave New World
+1 28/02/1998 54321 25.00 1 The Brothers Karamazov

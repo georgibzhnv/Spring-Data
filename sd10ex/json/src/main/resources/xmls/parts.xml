@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<parts>
+<part name="Bonnet/hood" price ="1001.34" quantity="10"/>
+<part name="Decklid" price ="1003.34" quantity="15"/>
+<part name="Fascia" price ="1500.34" quantity="5"/>
+<part name="Radiator" price ="2000.34" quantity="6"/>
+<part name="Pillar" price ="3001.34" quantity="12"/>
+<part name="Fender" price ="11.34" quantity="14"/>
+<part name="Grille" price ="101.34" quantity="17"/>
+</parts>

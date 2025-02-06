@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+    <car make="Toyota" model="Corolla" travelled-distance="150000">
+        <parts>
+            <part name="Fascia" price="1500.34"/>
+            <part name="Grille" price="101.34"/>
+            <part name="Bonnet/hood" price="1001.34"/>
+        </parts>
+    </car>
+    <car make="Ford" model="Focus" travelled-distance="120000">
+        <parts>
+            <part name="Bonnet/hood" price="1001.34"/>
+        </parts>
+    </car>
+    <car make="BMW" model="X5" travelled-distance="80000">
+        <parts>
+            <part name="Radiator" price="2000.34"/>
+            <part name="Pillar" price="3001.34"/>
+        </parts>
+    </car>
+    <car make="Mercedes" model="C-Class" travelled-distance="90000">
+        <parts>
+            <part name="Fascia" price="1500.34"/>
+            <part name="Pillar" price="3001.34"/>
+            <part name="Grille" price="101.34"/>
+        </parts>
+    </car>
+    <car make="Audi" model="A4" travelled-distance="110000">
+        <parts>
+            <part name="Decklid" price="1003.34"/>
+            <part name="Pillar" price="3001.34"/>
+            <part name="Bonnet/hood" price="1001.34"/>
+        </parts>
+    </car>
+    <car make="Honda" model="Civic" travelled-distance="130000">
+        <parts>
+            <part name="Decklid" price="1003.34"/>
+            <part name="Fascia" price="1500.34"/>
+            <part name="Pillar" price="3001.34"/>
+        </parts>
+    </car>
+    <car make="Nissan" model="Altima" travelled-distance="140000">
+        <parts>
+            <part name="Decklid" price="1003.34"/>
+            <part name="Pillar" price="3001.34"/>
+        </parts>
+    </car>
+    <car make="Chevrolet" model="Malibu" travelled-distance="125000">
+        <parts>
+            <part name="Decklid" price="1003.34"/>
+            <part name="Pillar" price="3001.34"/>
+            <part name="Bonnet/hood" price="1001.34"/>
+        </parts>
+    </car>
+    <car make="Hyundai" model="Elantra" travelled-distance="100000">
+        <parts>
+            <part name="Decklid" price="1003.34"/>
+            <part name="Fender" price="11.34"/>
+            <part name="Grille" price="101.34"/>
+        </parts>
+    </car>
+    <car make="Kia" model="Optima" travelled-distance="95000">
+        <parts>
+            <part name="Fascia" price="1500.34"/>
+            <part name="Fender" price="11.34"/>
+            <part name="Pillar" price="3001.34"/>
+        </parts>
+    </car>
+</cars>
