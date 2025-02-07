@@ -31,6 +31,6 @@ public class Runner implements CommandLineRunner {
 //        System.out.println(this.sellerService.importSellers());
 //        System.out.println(this.offerService.importOffers());
 
-        System.out.println(this.carService.getCarsOrderByPictureCountThenByMake());
+//        System.out.println(this.carService.getCarsOrderByPictureCountThenByMake());
     }
 }
