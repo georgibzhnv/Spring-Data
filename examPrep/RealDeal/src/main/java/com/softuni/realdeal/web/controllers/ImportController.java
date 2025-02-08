@@ -4,6 +4,7 @@ import com.softuni.realdeal.service.CarService;
 import com.softuni.realdeal.service.OfferService;
 import com.softuni.realdeal.service.PictureService;
 import com.softuni.realdeal.service.SellerService;
+import jakarta.xml.bind.JAXBException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -61,4 +62,44 @@ public class ImportController extends BaseController{
         this.carService.importCars();
         return super.redirect("/import/xml");
     }
+    @GetMapping("/offers")
+    public ModelAndView offers() throws IOException {
+        ModelAndView modelAndView = super.view("xml/import-offers");
+        modelAndView.addObject("offers",this.offerService.readOffersFileContent());
+        return modelAndView;
+    }
+
+    @PostMapping("/offers")
+    public  ModelAndView offersConfirm() throws IOException, JAXBException {
+        this.offerService.importOffers();
+        return super.redirect("/import/xml");
+    }
+    
+    @GetMapping("/pictures")
+    public ModelAndView pictures() throws IOException {
+        ModelAndView modelAndView = super.view("xml/import-pictures");
+        modelAndView.addObject("pictures",this.pictureService.readPicturesFromFile());
+        return modelAndView;
+    }
+
+    @PostMapping("/pictures")
+    public  ModelAndView picturesConfirm() throws IOException, JAXBException {
+        this.pictureService.importPictures();
+        return super.redirect("/import/xml");
+    }
+    
+    @GetMapping("/sellers")
+    public ModelAndView sellers() throws IOException {
+        ModelAndView modelAndView = super.view("xml/import-sellers");
+        modelAndView.addObject("sellers",this.sellerService.readSellersFromFile());
+        return modelAndView;
+    }
+
+    @PostMapping("/sellers")
+    public  ModelAndView sellersConfirm() throws IOException, JAXBException {
+        this.sellerService.importSellers();
+        return super.redirect("/import/xml");
+    }
+
+
 }
