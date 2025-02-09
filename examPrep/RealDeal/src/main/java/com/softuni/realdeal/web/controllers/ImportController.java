@@ -60,7 +60,7 @@ public class ImportController extends BaseController{
     @PostMapping("/cars")
     public  ModelAndView carsConfirm() throws IOException {
         this.carService.importCars();
-        return super.redirect("/import/xml");
+        return super.redirect(areAllImported()?"/home" : "/import/xml");
     }
     @GetMapping("/offers")
     public ModelAndView offers() throws IOException {
@@ -72,7 +72,7 @@ public class ImportController extends BaseController{
     @PostMapping("/offers")
     public  ModelAndView offersConfirm() throws IOException, JAXBException {
         this.offerService.importOffers();
-        return super.redirect("/import/xml");
+        return super.redirect(areAllImported()?"/home" : "/import/xml");
     }
     
     @GetMapping("/pictures")
@@ -85,7 +85,7 @@ public class ImportController extends BaseController{
     @PostMapping("/pictures")
     public  ModelAndView picturesConfirm() throws IOException, JAXBException {
         this.pictureService.importPictures();
-        return super.redirect("/import/xml");
+        return super.redirect(areAllImported()?"/home" : "/import/xml");
     }
     
     @GetMapping("/sellers")
@@ -98,8 +98,14 @@ public class ImportController extends BaseController{
     @PostMapping("/sellers")
     public  ModelAndView sellersConfirm() throws IOException, JAXBException {
         this.sellerService.importSellers();
-        return super.redirect("/import/xml");
+        return super.redirect(areAllImported()?"/home" : "/import/xml");
     }
 
+    private boolean areAllImported(){
+        return this.carService.areImported() &&
+                this.offerService.areImported() &&
+                this.pictureService.areImported()&&
+                this.sellerService.areImported();
+    }
 
 }
