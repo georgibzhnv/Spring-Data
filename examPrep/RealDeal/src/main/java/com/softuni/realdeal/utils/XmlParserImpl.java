@@ -6,6 +6,7 @@ import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.Unmarshaller;
 
 import java.io.File;
+import java.io.StringWriter;
 
 public class XmlParserImpl implements XmlParser{
 
@@ -23,6 +24,16 @@ public class XmlParserImpl implements XmlParser{
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
         marshaller.marshal(object,new File(filePath));
+    }
+
+    @Override
+    public <O> String exportXml(O object, Class<O> objectClass) throws JAXBException {
+        JAXBContext context= JAXBContext.newInstance(objectClass);
+        Marshaller marshaller = context.createMarshaller();
+        StringWriter stringWriter = new StringWriter();
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
+        marshaller.marshal(object,stringWriter);
+        return stringWriter.toString();
     }
 
 }

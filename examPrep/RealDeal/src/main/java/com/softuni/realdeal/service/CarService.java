@@ -11,4 +11,5 @@ public interface CarService {
     String readCarsFileContent() throws IOException;
     String importCars() throws IOException;
     String getCarsOrderByPictureCountThenByMake();
+//    String exportSoldCars();
 }
