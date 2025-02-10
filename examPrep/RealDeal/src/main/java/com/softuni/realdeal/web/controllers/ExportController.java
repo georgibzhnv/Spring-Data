@@ -20,9 +20,8 @@ public class ExportController extends BaseController{
         this.sellerService = sellerService;
     }
 //
-//    @GetMapping("/cars-if-sold")
-//    public ModelAndView getAllFinishedProjects(){
+//    @GetMapping("/cars-if-sold-xml")
+//    public ModelAndView getAllCarsSoldXml(){
 //       return new ModelAndView("export/export-cars-if-sold","carsIfSold" ,carService.exportSoldCars());
 //    }
-
 }
